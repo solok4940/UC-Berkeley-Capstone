@@ -20,11 +20,11 @@ sim('slosh_attitude_sim')
 
 5:
 
->> out = ans;
->> attitude_out = out.attitude_out;
->> position_out = out.position_out;
->> velocity_out = out.velocity_out;
->> rates_out = out.rates_out;
+out = ans;
+attitude_out = out.attitude_out;
+position_out = out.position_out;
+velocity_out = out.velocity_out;
+rates_out = out.rates_out;
 
 %% Export Simulation Data to CSV
 if ~exist('attitude_out', 'var')
